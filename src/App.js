@@ -1,24 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
-
+import SignUp from './components/SignUp';
+import Form from './components/MyForm';
+import { createTheme, ThemeProvider } from '@mui/material';
+import './index.css';
+import Header from './components/Header';
+import Logins from './components/Logins';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import MyForm from './components/MyForm';
+import { useSelector } from 'react-redux';
+const theme = createTheme();
 function App() {
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <>
+  <Router>
+ <Header/>
+ <Routes>
+  <Route exact path='/home' element = {
+ <ThemeProvider theme={theme}>
+ <Form/>
+ </ThemeProvider>}
+ >
+ </Route>
+ <Route exact path='/login' element={<Logins />}></Route>
+ <Route exact path='/signup' element={<SignUp />}></Route>
+
+ </Routes>
+ </Router>
+       
+ </>
   );
 }
 

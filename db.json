@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "name": "saransh",
+      "email": "saransh@gmail.com",
+      "gender": "male",
+      "phoneNumber": "12345678",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "termsAndConditions": true,
+      "id": 1
+    },
+    {
+      "name": "saransh",
+      "email": "saransh@gmail.com",
+      "gender": "male",
+      "phoneNumber": "12345678",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "termsAndConditions": true,
+      "id": 2
+    },
+    {
+      "name": "milan",
+      "email": "milan@gmail.com",
+      "gender": "male",
+      "phoneNumber": "123456789",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "termsAndConditions": true,
+      "id": 3
+    },
+    {
+      "name": "abcdef",
+      "email": "abcdef@gmail.com",
+      "gender": "male",
+      "phoneNumber": "12345678",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "termsAndConditions": true,
+      "id": 4
+    },
+    {
+      "name": "sajan",
+      "email": "sajan@gmail.com",
+      "gender": "male",
+      "phoneNumber": "123456",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "termsAndConditions": true,
+      "id": 5
+    }
+  ],
+  "remaining-task": [],
+  "completed-task": [
+    {
+      "title": "hello how are you",
+      "currentTime": "1:49am",
+      "id": 1
+    }
+  ]
+}
