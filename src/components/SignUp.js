@@ -28,6 +28,8 @@ const headerStyle = {margin:0}
 const avatarStyle = {backgroundColor:'#1bbd7e'}
 const marginTop = {marginTop :5}
 
+  const marginTop1 = {marginTop :51}
+
 
 
 
